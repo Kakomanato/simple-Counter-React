@@ -1,0 +1,26 @@
+body{
+  background-color: #000000;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+
+.Timer{
+  background-color: #000000;
+  text-align: center;
+}
+
+.Clock, .Digit{
+  color: white;
+  display: inline;
+  font-size: 500%;
+  padding: 5px;
+  margin: 8px;
+  border: 5px;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: #202020;
+  background-color:#111111;
+}
